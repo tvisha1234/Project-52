@@ -1,0 +1,147 @@
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8jrA1J9NjytCGzYPlYWyxKmC-PNlp_QzUSg&usqp=CAU");
+}
+h3{
+    font-family: fantasy;
+    color: #8a2be2;
+}
+
+h1{
+    font-family: monospace;
+    color: #ffffff;
+    size: unset;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-image: url("https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    
+}
+h4{
+    font-family: BlinkMacSystemFont;
+}
+
+ul{
+    font-family: cursive;
+}
+
+img{
+    border:solid;
+    border-style: dotted;
+    border-color: #f7f3ff
+}
+#header1{
+    display: flex;
+    justify-content: space-around;
+    border:solid;
+    border-style: dashed;
+}
+#sub1{
+    background-color:#99ceff;
+}
+
+#sub2{
+    background-color: #3ec8f1;
+}
+
+#headPhoto{
+    display: flex;
+    justify-content: space-around;
+}
+
+#header2{
+    display: flex;
+    justify-content: space-around;
+    border:solid;
+    border-style: dashed;
+}
+
+#header{
+    color: #fff8dc;
+}
+
+#header3{
+    display: flex;
+    justify-content: space-around;
+    border:solid;
+    border-style: dashed;
+}
+
+#header4{
+    display: flex;
+    justify-content: space-around;
+    border:solid;
+    border-style: dashed;
+}
+
+#header5{
+    display: flex;
+    justify-content: space-around;
+    border:solid;
+    border-style: dashed;
+}
+
+#header6{
+    display: flex;
+    justify-content: space-around;
+    border:solid;
+    border-style: dashed;
+}
+
+#title{
+    font-family: 'Times New Roman';
+    color: black;
+    padding: 100px;
+    margin:0px;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190628/ourmid/pngtree-white-geometric-origami-background-material-image_281799.jpg");
+}
+
+a:link{
+    color: rgb(55, 192, 255);
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(0, 89, 255);
+}
+
+.grid a:link{
+    color: rgb(255, 36, 36);
+    text-decoration: none;
+}
+
+.grid a:visited{
+    color: rgb(100, 0, 0);
+}
+
+.grid a:hover{
+    color:crimson;
+}
+
+#header a:hover{
+    color:darkgray;
+}
+
+#sub1 p{
+    position:absolute;
+    top:20%;
+    left:10%;
+    right:10%;
+    opacity:0;
+    color: rgb(0, 0, 0);
+
+}
+
+#sub1:hover p{
+    opacity: 1;
+    transform: scale(1.3);
+}
+
+#sub1:hover img{
+    opacity:0.2;
+    transform: scale(1.2);
+}
+
+#sub1{
+    position: relative;
+}
